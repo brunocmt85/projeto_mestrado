@@ -3,3 +3,4 @@
 "nova linha" 
 "mais um teste de push" 
 "mais uma linha" 
+"novo teste autom tico" 
