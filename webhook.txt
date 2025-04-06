@@ -6,3 +6,4 @@
 "novo teste autom tico" 
 "novo teste autom tico" 
 "mais um teste" 
+"teste com trigger" 
