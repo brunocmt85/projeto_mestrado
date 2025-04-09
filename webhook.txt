@@ -7,3 +7,4 @@
 "novo teste autom tico" 
 "mais um teste" 
 "teste com trigger" 
+"linha de teste para o n8n" 
