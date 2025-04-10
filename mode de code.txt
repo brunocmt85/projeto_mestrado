@@ -1,0 +1,4 @@
+echo "# teste do webhook" >> webhook.txt
+git add .
+git commit -m "Teste do webhook com n8n"
+git push
