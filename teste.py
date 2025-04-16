@@ -12,3 +12,4 @@ def vazamento_de_memoria():
 
 if __name__ == "__main__":
     vazamento_de_memoria()
+    
