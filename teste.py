@@ -1,5 +1,5 @@
 import time
-#hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+#hhhhhhhhhhhhhhhhhhhhhhhhhhhh
 
 vazamento34 = []
 
