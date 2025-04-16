@@ -1,7 +1,7 @@
 import time
 
-# Lista que nunca é liberada da memória
-vazamento = []
+
+vazamento80 = []
 
 def vazamento_de_memoria():
     while True:
