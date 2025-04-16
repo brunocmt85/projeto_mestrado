@@ -1,5 +1,5 @@
 import time
-vazamento964[]
+vazamento96984[]
 
 def vazamento_de_memoria():
     while True:
