@@ -1,6 +1,6 @@
 import time
 vazamento[]   
- 
+  
 def vazamento_de_memoria():
     while True:
         vazamento.append("A" * 10**6)  
