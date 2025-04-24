@@ -1,5 +1,6 @@
 import time    
 vazamento[]   
+aluno = 1
   
 def vazamento_de_memoria():
     while True:
