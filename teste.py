@@ -1,10 +1,10 @@
 import time
-vazamento2[]   
+vazamento[]   
  
 def vazamento_de_memoria():
     while True:
-        vazamento2.append("A" * 10**6)  
-        print(f"Objetos armazenados: {len(vazamento2)}")
+        vazamento.append("A" * 10**6)  
+        print(f"Objetos armazenados: {len(vazamento)}")
         time.sleep(0.5)
 
 if __name__ == "__main__":
