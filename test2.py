@@ -1,4 +1,4 @@
-import time
+import time 
 vazamento[]   
   
 def vazamento_de_memoria():
