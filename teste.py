@@ -1,6 +1,6 @@
 import time
 
-# Simulação1
+# Simulação2
 def memory_leak_simulation():
     leaked_list = []  # Lista que vai crescer indefinidamente
     while True:
