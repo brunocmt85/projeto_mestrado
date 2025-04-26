@@ -1,6 +1,6 @@
 import time
 
-print("Simulação7")
+print("Simulação1")
 def memory_leak_simulation():
     leaked_list = []  
     while True:
