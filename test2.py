@@ -1,6 +1,6 @@
 import time    
 vazamento[]   
-print("OK5")
+print("OK6")
   
 def vazamento_de_memoria():
     while True:
