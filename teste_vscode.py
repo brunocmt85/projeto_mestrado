@@ -1,4 +1,4 @@
-# Teste de memória em Python 02
+# Teste de memória em Python 04
 
 leak_list = []  # Lista global que acumula dados desnecessariamente
 
