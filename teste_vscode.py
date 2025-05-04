@@ -1,6 +1,6 @@
 import gc
 
-leak_list = []  # Lista global que acumula dados desnecessariamente
+leak_list = []  # Lista global que acumula dados desnecessariamente1
 
 def process_data(data_chunk):
     # Simula o processamento de dados
@@ -18,8 +18,8 @@ def main():
         # Simula o uso do resultado
         print(f"Processed chunk with {len(processed_chunk)} items.")
         
-        # Acumula os dados processados desnecessariamente em uma lista global
-        leak_list.append(processed_chunk)
+        # Libera a memória ao sobrescrever a variável
+        processed_chunk = None
 
 if __name__ == "__main__":
     main()
