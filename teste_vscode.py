@@ -1,3 +1,7 @@
+# Teste de memória em Python 01
+
+leak_list = []  # Lista global que acumula dados desnecessariamente
+
 def process_data(data_chunk):
     # Simula o processamento de dados
     result = [x**2 for x in data_chunk]
@@ -14,8 +18,8 @@ def main():
         # Simula o uso do resultado
         print(f"Processed chunk with {len(processed_chunk)} items.")
         
-        # Libera a memória ao sobrescrever a variável
-        processed_chunk = None  # Remove a referência para liberar memória
+        # Acumula os dados processados desnecessariamente em uma lista global
+        leak_list.append(processed_chunk)
 
 if __name__ == "__main__":
     main()
