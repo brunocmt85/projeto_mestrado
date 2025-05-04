@@ -21,7 +21,7 @@ def main():
         print(f"Processed chunk with {len(processed_chunk)} items.")
         
         # Libera a memória ao sobrescrever a variável
-        processed_chunk = None
+        del processed_chunk  # Remove explicitamente a variável para liberar memória
 
 if __name__ == "__main__":
     main()
