@@ -1,9 +1,3 @@
-import gc
-
-# TESTE DE MEMÓRIA 01
-
-leak_list = []  # Lista global que acumula dados desnecessariamente3
-
 def process_data(data_chunk):
     # Simula o processamento de dados
     result = [x**2 for x in data_chunk]
@@ -21,7 +15,7 @@ def main():
         print(f"Processed chunk with {len(processed_chunk)} items.")
         
         # Libera a memória ao sobrescrever a variável
-        del processed_chunk  # Remove explicitamente a variável para liberar memória
+        processed_chunk = None  # Remove a referência para liberar memória
 
 if __name__ == "__main__":
     main()
