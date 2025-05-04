@@ -1,5 +1,7 @@
 import gc
 
+# TESTE DE MEMÓRIA 01
+
 leak_list = []  # Lista global que acumula dados desnecessariamente3
 
 def process_data(data_chunk):
