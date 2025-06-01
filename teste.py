@@ -1,12 +1,13 @@
-import time
-
-print("Simulação6")
-def memory_leak_simulation():
-    leaked_list = []  
-    while True:
-        leaked_list.append('A' * 10**6)  
-        time.sleep(0.1) 
+print("12")
+def processar_dados():
+    for i in range(1000):
+        dados = ["item"] * 1000  # A lista é criada e descartada a cada iteração
+        print(f"Processando lote {i + 1}")
 
 if __name__ == "__main__":
-    memory_leak_simulation()
+    processar_dados()
+
+
+
+
 
