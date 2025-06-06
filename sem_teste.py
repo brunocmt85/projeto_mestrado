@@ -1,4 +1,4 @@
-print("30")
+print("31")
 def processar_dados():
     for i in range(1000):
         dados = ["item"] * 1000  # A lista é criada e descartada a cada iteração
