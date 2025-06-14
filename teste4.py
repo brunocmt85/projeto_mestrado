@@ -14,5 +14,5 @@ def vazamento_de_memoria():
         print("Memória liberada.")
 
 if __name__ == "__main__":
-    print("39")
+    print("42")
     vazamento_de_memoria()
